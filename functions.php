@@ -2,6 +2,15 @@
 
 <?php
 
+    //WHEN THEME IS ACTIVATED
+    function gymfitness_setup() {
+        // enable featured images
+        add_theme_support('post-thumbnails');
+
+    }
+    add_action( 'after_setup_theme', 'gymfitness_setup' );
+
+
     // NAVIGATION MENUS
     function gymfitness_menus(){
         $locations = array(
