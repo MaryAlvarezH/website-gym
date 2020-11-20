@@ -247,6 +247,7 @@ hr {
     color: var(--black);
     text-align: center;
     font-size: 2.4rem;
+    padding: 0 1rem;
 }
 
 .site-footer .main-menu .current_page_item {
@@ -297,4 +298,13 @@ hr {
     .with-sidebar .sideber {
         flex: 0 0 calc(35% - 2rem);
     }
+}
+
+/* No sidebar */
+.no-sidebar {
+    display: flex;
+    justify-content: center;
+}
+.no-sidebar .main-container {
+    flex: 0 1 800px;
 }
