@@ -90,6 +90,21 @@ hr {
     border: 1px solid var(--lightgrey);
 }
 
+.featured-image {
+    margin-bottom: 3rem;
+}
+
+
+/* Utilities */
+.text-center {
+    text-align: center;
+}
+.primary-text {
+    color: var(--primaryColor);
+}
+.section {
+    padding: 5rem 0;
+}
 
 /* Header */
 .site-header {
@@ -260,5 +275,26 @@ hr {
     .copyright {
         font-size: 2.4rem;
         margin: 0;
+    }
+}
+
+/* Pages */
+
+.page h1 {
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 768px) {
+    .page.with-sidebar {
+        display: flex;
+        justify-content: space-between;
+    }  
+
+    .with-sidebar .main-container {
+        flex: 0 0 calc(65% - 2rem)
+    }
+
+    .with-sidebar .sideber {
+        flex: 0 0 calc(35% - 2rem);
     }
 }
