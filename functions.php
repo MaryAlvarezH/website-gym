@@ -1,6 +1,10 @@
 
 
 <?php
+
+    // Consultas reutilizables
+    require get_template_directory() . '/inc/queries.php';
+
     // Funciones personalizadas disponibles en todo el tema, preferentemente acompañadas de un prefijo
 
     // WHEN THEME IS ACTIVATED
